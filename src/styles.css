@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&family=Montserrat:wght@100;400;500;800&display=swap");
+
+.app {
+  text-align: center;
+  font-family: Inter;
+}
+
+.google-button {
+  display: flex;
+  justify-content: center;
+}
+
+.logout-btn {
+  width: 100px;
+  height: 25px;
+  border: 0px none;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  font-family: Montserrat;
+}
+
+.logout-btn:hover {
+  background-color: #1769aa;
+}
+
+.logout-container {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.add-doc-btn {
+  width: 150px;
+  height: 25px;
+  border: 0px none;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  font-family: Montserrat;
+}
+.add-doc-btn:hover {
+  background-color: #1769aa;
+}
+
+.title-input {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn {
+  width: 50px;
+  background-color: #2196f3;
+  color: white;
+  border: 0px none;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.add-title {
+  height: 20px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid grey;
+  font-family: Montserrat;
+}
+
+.grid-main {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.grid-child {
+  border: 1px solid grey;
+}
+.grid-child:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.go-back-btn {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  width: 100px;
+  height: 25px;
+  border: 0px none;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  font-family: Montserrat;
+}
